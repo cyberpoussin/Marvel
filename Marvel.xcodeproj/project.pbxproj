@@ -34,6 +34,7 @@
 		8410EC79275E1EA9002702B5 /* HeroesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410EC78275E1EA9002702B5 /* HeroesList.swift */; };
 		8410EC7C275E1EC6002702B5 /* NavigationConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410EC7A275E1EC6002702B5 /* NavigationConfigurator.swift */; };
 		8410EC7F275E265A002702B5 /* TableViewConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410EC7E275E265A002702B5 /* TableViewConfigurator.swift */; };
+		8410EC82275E2B03002702B5 /* HeroesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410EC81275E2B03002702B5 /* HeroesStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		8410EC78275E1EA9002702B5 /* HeroesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroesList.swift; sourceTree = "<group>"; };
 		8410EC7A275E1EC6002702B5 /* NavigationConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationConfigurator.swift; sourceTree = "<group>"; };
 		8410EC7E275E265A002702B5 /* TableViewConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewConfigurator.swift; sourceTree = "<group>"; };
+		8410EC81275E2B03002702B5 /* HeroesStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroesStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				8410EC1F275A87C6002702B5 /* MarvelApp.swift */,
 				8410EC21275A87C6002702B5 /* ContentView.swift */,
 				8410EC62275BB2E2002702B5 /* Model */,
+				8410EC80275E2B03002702B5 /* Store */,
 				8410EC4B275A88F2002702B5 /* Services */,
 				8410EC77275E1E79002702B5 /* Views */,
 				8410EC76275E1E73002702B5 /* Components */,
@@ -227,6 +230,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		8410EC80275E2B03002702B5 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				8410EC81275E2B03002702B5 /* HeroesStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -329,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8410EC7F275E265A002702B5 /* TableViewConfigurator.swift in Sources */,
+				8410EC82275E2B03002702B5 /* HeroesStore.swift in Sources */,
 				8410EC64275BB2F8002702B5 /* CharactersRequestResponse.swift in Sources */,
 				8410EC22275A87C6002702B5 /* ContentView.swift in Sources */,
 				8410EC6E275E17B9002702B5 /* Font+styles.swift in Sources */,
