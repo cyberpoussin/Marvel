@@ -28,6 +28,9 @@
 		8410EC6C275E17B9002702B5 /* Color+styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410EC69275E17B9002702B5 /* Color+styles.swift */; };
 		8410EC6D275E17B9002702B5 /* Image+styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410EC6A275E17B9002702B5 /* Image+styles.swift */; };
 		8410EC6E275E17B9002702B5 /* Font+styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410EC6B275E17B9002702B5 /* Font+styles.swift */; };
+		8410EC71275E1843002702B5 /* Samples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410EC70275E1843002702B5 /* Samples.swift */; };
+		8410EC73275E1948002702B5 /* HeroDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410EC72275E1947002702B5 /* HeroDetailsView.swift */; };
+		8410EC75275E196E002702B5 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410EC74275E196E002702B5 /* ImageLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,9 @@
 		8410EC69275E17B9002702B5 /* Color+styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+styles.swift"; sourceTree = "<group>"; };
 		8410EC6A275E17B9002702B5 /* Image+styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+styles.swift"; sourceTree = "<group>"; };
 		8410EC6B275E17B9002702B5 /* Font+styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Font+styles.swift"; sourceTree = "<group>"; };
+		8410EC70275E1843002702B5 /* Samples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Samples.swift; sourceTree = "<group>"; };
+		8410EC72275E1947002702B5 /* HeroDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroDetailsView.swift; sourceTree = "<group>"; };
+		8410EC74275E196E002702B5 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,8 @@
 			children = (
 				8410EC1F275A87C6002702B5 /* MarvelApp.swift */,
 				8410EC21275A87C6002702B5 /* ContentView.swift */,
+				8410EC72275E1947002702B5 /* HeroDetailsView.swift */,
+				8410EC74275E196E002702B5 /* ImageLoader.swift */,
 				8410EC62275BB2E2002702B5 /* Model */,
 				8410EC4B275A88F2002702B5 /* Services */,
 				8410EC67275E125D002702B5 /* Ressources */,
@@ -170,6 +178,7 @@
 			children = (
 				8410EC61275BB2DA002702B5 /* Codable */,
 				8410EC5D275BB259002702B5 /* Hero.swift */,
+				8410EC70275E1843002702B5 /* Samples.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -297,11 +306,13 @@
 				8410EC64275BB2F8002702B5 /* CharactersRequestResponse.swift in Sources */,
 				8410EC22275A87C6002702B5 /* ContentView.swift in Sources */,
 				8410EC6E275E17B9002702B5 /* Font+styles.swift in Sources */,
+				8410EC71275E1843002702B5 /* Samples.swift in Sources */,
 				8410EC6D275E17B9002702B5 /* Image+styles.swift in Sources */,
 				8410EC54275A88F2002702B5 /* Publisher+extension.swift in Sources */,
 				8410EC57275A88F2002702B5 /* NetworkService.swift in Sources */,
 				8410EC55275A88F2002702B5 /* URLSession+downloadTask.swift in Sources */,
 				8410EC59275A88F2002702B5 /* Endpoint.swift in Sources */,
+				8410EC75275E196E002702B5 /* ImageLoader.swift in Sources */,
 				8410EC53275A88F2002702B5 /* Services.swift in Sources */,
 				8410EC20275A87C6002702B5 /* MarvelApp.swift in Sources */,
 				8410EC5C275BB10C002702B5 /* HeroesProvider.swift in Sources */,
@@ -310,6 +321,7 @@
 				8410EC58275A88F2002702B5 /* UserDefaults+KeyValueService.swift in Sources */,
 				8410EC5E275BB259002702B5 /* Hero.swift in Sources */,
 				8410EC6C275E17B9002702B5 /* Color+styles.swift in Sources */,
+				8410EC73275E1948002702B5 /* HeroDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,7 +530,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 62724PC466;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -543,7 +555,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 62724PC466;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
