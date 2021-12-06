@@ -69,7 +69,7 @@ struct HeroDetailsView: View {
                     }
                     Text(hero.description)
                         .font(Font.Details.text)
-                    Spacer()
+                    //Spacer()
                 }
                 .padding(.horizontal, 13)
                 .frame(maxWidth: .infinity, alignment: .leading)

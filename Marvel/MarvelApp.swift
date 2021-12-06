@@ -11,9 +11,7 @@ import SwiftUI
 struct MarvelApp: App {
     var body: some Scene {
         WindowGroup {
-            HeroesList(heroes: Array.HEROES, favorites: [Hero.HERO1, Hero.HERO2]) { hero in
-                HeroDetailsView(hero: hero, recruited: true)
-            }
+            HeroesListScreen(vm: HeroesListViewModel(store: HeroesStore(services: Services())))
         }
     }
 }

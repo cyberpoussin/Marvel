@@ -35,6 +35,8 @@
 		8410EC7C275E1EC6002702B5 /* NavigationConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410EC7A275E1EC6002702B5 /* NavigationConfigurator.swift */; };
 		8410EC7F275E265A002702B5 /* TableViewConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410EC7E275E265A002702B5 /* TableViewConfigurator.swift */; };
 		8410EC82275E2B03002702B5 /* HeroesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410EC81275E2B03002702B5 /* HeroesStore.swift */; };
+		8410EC85275E2E5E002702B5 /* HeroesListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410EC83275E2E5E002702B5 /* HeroesListScreen.swift */; };
+		8410EC86275E2E5E002702B5 /* HeroDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410EC84275E2E5E002702B5 /* HeroDetailsScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +80,8 @@
 		8410EC7A275E1EC6002702B5 /* NavigationConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationConfigurator.swift; sourceTree = "<group>"; };
 		8410EC7E275E265A002702B5 /* TableViewConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewConfigurator.swift; sourceTree = "<group>"; };
 		8410EC81275E2B03002702B5 /* HeroesStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroesStore.swift; sourceTree = "<group>"; };
+		8410EC83275E2E5E002702B5 /* HeroesListScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroesListScreen.swift; sourceTree = "<group>"; };
+		8410EC84275E2E5E002702B5 /* HeroDetailsScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroDetailsScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +228,8 @@
 		8410EC77275E1E79002702B5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8410EC84275E2E5E002702B5 /* HeroDetailsScreen.swift */,
+				8410EC83275E2E5E002702B5 /* HeroesListScreen.swift */,
 				8410EC78275E1EA9002702B5 /* HeroesList.swift */,
 				8410EC72275E1947002702B5 /* HeroDetailsView.swift */,
 			);
@@ -340,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8410EC7F275E265A002702B5 /* TableViewConfigurator.swift in Sources */,
+				8410EC86275E2E5E002702B5 /* HeroDetailsScreen.swift in Sources */,
 				8410EC82275E2B03002702B5 /* HeroesStore.swift in Sources */,
 				8410EC64275BB2F8002702B5 /* CharactersRequestResponse.swift in Sources */,
 				8410EC22275A87C6002702B5 /* ContentView.swift in Sources */,
@@ -358,6 +365,7 @@
 				8410EC5C275BB10C002702B5 /* HeroesProvider.swift in Sources */,
 				8410EC4A275A882E002702B5 /* String+MD5.swift in Sources */,
 				8410EC56275A88F2002702B5 /* APISession.swift in Sources */,
+				8410EC85275E2E5E002702B5 /* HeroesListScreen.swift in Sources */,
 				8410EC58275A88F2002702B5 /* UserDefaults+KeyValueService.swift in Sources */,
 				8410EC5E275BB259002702B5 /* Hero.swift in Sources */,
 				8410EC6C275E17B9002702B5 /* Color+styles.swift in Sources */,
