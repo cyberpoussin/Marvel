@@ -2,7 +2,7 @@
 //  Samples.swift
 //  Marvel
 //
-//  Created by Admin on 06/12/2021.
+//  Created by Adrien S on 06/12/2021.
 //
 
 import Foundation

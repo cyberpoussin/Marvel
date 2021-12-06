@@ -1,8 +1,8 @@
 //
 //  APISession.swift
-//  LocalformanceBeta
+//  Marvel
 //
-//  Created by Admin on 27/05/2021.
+//  Created by Adrien S on 27/05/2021.
 //
 
 import Combine

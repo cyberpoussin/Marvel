@@ -2,7 +2,7 @@
 //  Hero.swift
 //  Marvel
 //
-//  Created by Admin on 04/12/2021.
+//  Created by Adrien S on 04/12/2021.
 //
 
 import Foundation
