@@ -39,6 +39,7 @@ struct Endpoint<ResponseType: Decodable>: RequestBuilderWithReponseType {
             URLQueryItem(name: "apikey", value: publicKey),
             URLQueryItem(name: "hash", value: hash),
             URLQueryItem(name: "limit", value: "25"),
+            URLQueryItem(name: "series", value: "3971"),
 
         ]
     }
