@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-// MARK: HeroDetailsView
-// Displays informations about an Hero.
-// User can interact in two ways :
-// dismiss the view, or tap "recruit" button.
-// This button displays an alert.
-// A user confirmation trigger an onRecruit closure.
+/// HeroDetailsView
+/// Displays informations about an Hero.
+/// User can interact in two ways :
+/// dismiss the view, or tap "recruit" button.
+/// This button displays an alert.
+/// A user confirmation trigger an onRecruit closure.
 struct HeroDetailsView: View {
     @Environment(\.presentationMode) var presentationMode
     let hero: Hero
@@ -48,7 +48,6 @@ struct HeroDetailsView: View {
                     }
                 )
                 .clipped()
-
                 VStack(alignment: .leading, spacing: 15) {
                     Text(hero.name)
                         .font(Font.Details.title)
