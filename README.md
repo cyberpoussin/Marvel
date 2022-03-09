@@ -13,7 +13,7 @@ I am using two ViewModels (one per screen), which share the same Store.
 In detail we could describe this architecture as follows:
 Services - Provider - Store - ViewModels - Screens - Views
 
-### Services and Provider
+### Services and Providers
 In these sample app, we use URLSession and UserDefauls, but because of the NetworkService and KeyValueServices protocol, it will be easy in the future to change (or mock) these services. 
 The services are injected into the HeroesProvider by the constructor.
 
